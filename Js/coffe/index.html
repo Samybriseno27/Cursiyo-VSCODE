@@ -1,20 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Evento del dia del programador</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        #games-container {
+            padding: 2rem;
+        }
+        .game {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1 id="titulo">Titulo</h1>
-    <p class="texto especial">texto parrafo chanchito feliz</p>
-    <p class="texto">texto parrafo chanchito triste</p>
-    <p class="especial">texto parrafo chanchito feliz </p>
-    <div>
-        <p>hola chanchito feliz</p>
-        <h2>Soy un subtitulo</h2>
-        <h3>Soy un susubbitulo</h3>
-    </div>
+    <header>
+        <h1>Bienvenido a la Página de Juegos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+    <div id="games-container"></div>
 </body>
 </html>
